@@ -1,0 +1,25 @@
+.detail-jeux {
+	h1 {
+		font-size: 1.1rem;
+	}
+
+	img {
+		width: 50%;
+		max-width: 500px;
+		object-fit: contain;
+	}
+
+	.contenu {
+		margin-top: 20px;
+
+		p {
+			span {
+				color: $secondaire;
+			}
+		}
+
+		.affichePopup {
+			cursor: pointer;
+		}
+	}
+}

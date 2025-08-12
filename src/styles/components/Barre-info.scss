@@ -1,0 +1,32 @@
+.barre-info {
+	ul {
+		display: flex;
+		justify-content: center;
+		gap: 20px;
+		background-color: $fond-jeux;
+		color: $secondaire;
+		margin: 10px 0;
+		padding: 5px;
+	}
+
+	li {
+		cursor: pointer;
+	}
+
+	.onglet-active {
+		position: relative;
+
+		&::after {
+			content: "";
+			position: absolute;
+			bottom: -2px;
+			background-color: #fae293;
+			height: 3px;
+			left: 50%;
+			transform: translateX(-50%);
+			border-radius: 5px;
+			animation: barre 0.7s forwards;
+		}
+
+	}
+}

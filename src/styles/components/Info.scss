@@ -1,0 +1,65 @@
+.contenu {
+	p {
+		margin: 5px;
+	}
+
+	.affichePopup {
+		cursor: pointer;
+	}
+
+	.popup {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.5);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		z-index: 10;
+
+	}
+
+	.contenu-popup {
+		position: relative;
+		background: $fond-jeux;
+		padding: 1rem;
+		border-radius: 10px;
+		width: 100%;
+		max-width: 500px;
+	}
+
+	.close-btn {
+		position: absolute;
+		top: 10px;
+		right: 20px;
+		color: $primaire;
+		background: transparent;
+		border: none;
+		font-size: 1.5rem;
+		cursor: pointer;
+	}
+
+	tbody td {
+		width: 100px;
+	}
+
+	table {
+		border-collapse: collapse;
+		margin-top: 1rem;
+	}
+
+	table th,
+	table td {
+		border: 1px solid #ccc;
+		padding: 4px;
+		text-align: center;
+	}
+
+	.red {
+		background-color: $primaire;
+		color: $secondaire;
+		font-weight: 500;
+	}
+}

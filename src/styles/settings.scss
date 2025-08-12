@@ -1,0 +1,52 @@
+$primaire: #E63946;
+$secondaire: #fae293;
+$texte: #ffffffc7;
+$fond-jeux : #4e4e4e;
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+	background-color: rgb(32, 32, 32);
+	color: $texte;
+}
+
+li {
+	list-style-type: none;
+}
+
+h1 {
+	margin: 20px 0;
+	text-align: center;
+	color: $primaire;
+}
+
+h3 {
+	color: $primaire;
+	text-align: center;
+	margin: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.centre {
+	text-align: center;
+}
+
+.titre-jeux {
+	font-weight: 500;
+	font-size: 0.7em;
+	color: $secondaire;
+	margin-bottom: 15px;
+}
+
+.secondaire {
+	color: $secondaire;
+}
